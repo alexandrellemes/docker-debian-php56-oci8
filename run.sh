@@ -18,3 +18,4 @@ docker exec -it apache a2ensite projeto.teste.com.br
 # Reinicia os servicos
 docker exec -it apache /etc/init.d/apache2 restart
 docker exec -it apache /etc/init.d/memcached restart
+
