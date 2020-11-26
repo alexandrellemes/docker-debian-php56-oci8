@@ -67,6 +67,27 @@ services:
     networks:
       - code-network
 
+  # SMTP Server - desenvolvimento. (MailHog)
+  mail:
+    container_name: mail.llemes.local
+    hostname: mail.llemes.local
+    domainname: llemes.local
+    restart: always
+    build:
+      context: ./files/mailhog
+      args:
+        URL_PROXY: ${URL_PROXY}
+        PHP_VERSION: ${PHP_VERSION}
+        HOME: ${HOME_DIR}
+    volumes:
+    # - ${HOME_DIR}/discoDocker/docker/mail/:/var/mail/
+      - /tmp:/tmp
+    ports:
+      - 1025:1025
+      - 1080:8025
+    networks:
+      - code-network
+
 #  oracledb:
 #    container_name: oracledb
 #    #     image: wnameless/oracle-xe-11g
