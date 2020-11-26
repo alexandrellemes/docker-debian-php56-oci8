@@ -62,3 +62,4 @@ Inicie um novo container com sua aplicação, indicando a pasta de seu projeto.
 - OracleXE
 - PostGreSQL
 - SonarQube
+- MailHog
