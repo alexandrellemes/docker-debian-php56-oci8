@@ -6,7 +6,9 @@ Imaem construida a partir do Debian/Jessie, com Apache2, PHP5.6, extensão OCI8 
 
     git clone https://github.com/alexandrellemes/docker-debian-php56-oci8.git
     cd docker-debian-php56-oci8
-    docker build -t alexandrellemes/docker-debian-php56-oci8 .
+    ./run.sh
+    
+    #docker build -t alexandrellemes/docker-debian-php56-oci8 .
 
 ## Ou baixar a imagem do Docker Hub
 
