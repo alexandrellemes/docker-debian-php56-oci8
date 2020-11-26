@@ -1,0 +1,126 @@
+version: '3.7'
+
+services:
+
+# PHP - Apache - ambiente desenvolvimento.
+  php-apache:
+    container_name: php-apache
+    restart: always
+    build:
+      context: ./files/php-apache
+      args:
+        URL_PROXY: ${URL_PROXY}
+        PHP_VERSION: ${PHP_VERSION}
+        HOME: ${HOME_DIR}
+    volumes:
+      - ./apache/projetos/:/var/www/html/
+      - ./apache/conf/:/etc/apache2/sites-available/
+#      - ./apache/projetos/sample/dados/:/dados/
+    #      - ${HOME_DIR}/discoDocker/apache/logs/:/var/log/apache2
+      - /tmp:/tmp
+    ports:
+      - 80:80
+      - 443:443
+    links:
+      - mysqldb
+      - memcached
+    networks:
+      - code-network
+
+  mysqldb:
+    container_name: mysqldb
+    image: mysql:latest
+    restart: always
+    command: ['mysqld', '--lower_case_table_names=0', '--default_authentication_plugin=mysql_native_password']
+    volumes:
+      - mysqldb_data:/var/lib/mysql
+      - /tmp:/tmp
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_USER: 'test'
+      MYSQL_PASSWORD: '123456'
+      MYSQL_DATABASE: 'testdb'
+    networks:
+      - code-network
+
+  memcached:
+    container_name: memcached
+    restart: always
+    image: memcached:latest
+    ports:
+      - 11211:11211
+    networks:
+      - code-network
+
+#  Gerenciador de Container.
+  portainer:
+    container_name: portainer
+    image: portainer/portainer
+    ports:
+      - 9000:9000
+    command: -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    networks:
+      - code-network
+
+#  oracledb:
+#    container_name: oracledb
+#    #     image: wnameless/oracle-xe-11g
+#    image: epiclabs/docker-oracle-xe-11g
+#    ports:
+#      - "1521:1521"
+#    networks:
+#      - code-network
+
+#  postgresdb:
+#    container_name: postgresdb
+#    image: postgres
+#    restart: always
+#    ports:
+#      - 5432:5432
+#    environment:
+#      POSTGRES_PASSWORD: 123456
+#    networks:
+#      - code-network
+
+#  sonarqube:
+#    container_name: sonarqube
+#    image: sonarqube
+#    restart: always
+#    ports:
+#      - 7004:9000
+#      - 7005:9092
+#    networks:
+#      - code-network
+
+volumes:
+    phpmyadmin_data:
+    php-apache_data:
+    mysqldb_data:
+    memcached_data:
+    portainer_data:
+    maillocal_data:
+    oracledb_data:
+    postgresdb_data:
+    sonarqube_data:
+    iredmail_backup:
+    iredmail_mailboxes:
+    iredmail_mlmmj:
+    iredmail_mlmmj_archive:
+    iredmail_imapsieve_copy:
+    iredmail_custom:
+    iredmail_ssl:
+    iredmail_mysql:
+    iredmail_clamav:
+    iredmail_sa_rules:
+    iredmail_postfix_queue:
+
+networks:
+    code-network:
+      driver: bridge
+
+

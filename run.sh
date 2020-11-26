@@ -1,21 +1,21 @@
 #!/bin/bash
 
-# Compila a imagem
-docker build -t projeto-docker-debian --build-arg HOME=$HOME --build-arg USERPROXY=USUARIO.REDE --build-arg PASSWD=SENHA.REDE --build-arg PROJETO=projeto .
+echo 'Excluir maquinas ... fase 1'
+sudo docker ps -a | awk '{ print $14 }' | xargs sudo docker rm $0
+echo 'Excluir maquinas ... fase 2'
+sudo docker ps -a | awk '{ print $15 }' | xargs sudo docker rm $0
 
-# Fecha o container
-docker stop apache
+echo 'Monta os containers...'
+sudo docker-compose up -d --build
 
-# Apaga o container
-docker rm apache
+echo 'Modulos habilitados...'
+sudo docker-compose exec php-apache php -m | grep -E 'memcache|oci8|uploadprogress|mcrypt|xdebug'
 
-# Cria o container
-docker run -it --name apache -p 80:80 --network=host --privileged -v $HOME/discoDocker/apache/projetos/:/var/www/html/ -v $HOME/discoDocker/apache/conf/:/etc/apache2/sites-available -v /tmp:/tmp -d projeto-docker-debian:latest
+echo 'Habilita o site sample.local'
+sudo docker-compose exec php-apache sh -c "a2ensite sample.local"
 
-# Habilita o ambiente projeto.teste.com.br
-docker exec -it apache a2ensite projeto.teste.com.br
+echo 'Reinicia o apache2'
+sudo docker-compose exec php-apache sh -c "service apache2 reload"
 
-# Reinicia os servicos
-docker exec -it apache /etc/init.d/apache2 restart
-docker exec -it apache /etc/init.d/memcached restart
+#sudo docker system prune -a
 
