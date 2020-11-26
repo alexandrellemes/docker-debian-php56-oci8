@@ -1,6 +1,17 @@
 # docker-debian-php56-oci8
 
-Imaem construida a partir do Debian/Jessie, com Apache2, PHP5.6, extensão OCI8 e Oracle Instant Client.
+Imagem construida a partir do Debian/Jessie, com Apache2, PHP5.6, extensão OCI8 e Oracle Instant Client.
+
+Esse projeto utiliza o "docker-compose", como orquestrador.
+
+Veja na pasta "/scripts", a sua instalação.
+ 
+Utiliza também o "Portainer".
+
+Uma excelente ferramenta para o auxílio no dia-a-dia com o DOCKER.
+ 
+Se quiser, habilite o "SonarQube", somente descomente no arquivo "docker-compose.yml" a sua configuração.
+
 
 ## Como construir a imagem a partir do github
 
@@ -38,3 +49,16 @@ Inicie um novo container com sua aplicação, indicando a pasta de seu projeto.
 ## Teste seu ambiente :
 
 * Digite no seu browser: [http://127.0.0.1:80](http://127.0.0.1:80)
+
+## Recursos utilizados
+
+- Debian Jessie
+- PHP 5.6
+- Oracle OCI8
+- MySQL
+- Memcached
+- Apache2
+- Portainer
+- OracleXE
+- PostGreSQL
+- SonarQube
