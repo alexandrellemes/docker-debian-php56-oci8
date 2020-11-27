@@ -15,7 +15,6 @@ services:
     volumes:
       - ./apache/projetos/:/var/www/html/
       - ./apache/conf/:/etc/apache2/sites-available/
-#      - ./apache/projetos/sample/dados/:/dados/
     #      - ${HOME_DIR}/discoDocker/apache/logs/:/var/log/apache2
       - /tmp:/tmp
     ports:
@@ -31,7 +30,7 @@ services:
     container_name: mysqldb
     image: mysql:latest
     restart: always
-    command: ['mysqld', '--lower_case_table_names=0', '--default_authentication_plugin=mysql_native_password']
+    command: ['mysqld', '--lower_case_table_names=0', '--default_authentication_plugin=mysql_native_password', '--collation-server=utf8mb4_unicode_ci', '--character-set-server=utf8mb4']
     volumes:
       - mysqldb_data:/var/lib/mysql
       - /tmp:/tmp
