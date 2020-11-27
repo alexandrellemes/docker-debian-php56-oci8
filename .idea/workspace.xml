@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1464f5b1-1968-44ab-a22f-08a8380bef2b" name="Default Changelist" comment="# Módulos para ativer o SSL no projeto.">
+      <change beforePath="$PROJECT_DIR$/files/php-apache" beforeDir="false" afterPath="$PROJECT_DIR$/files/php-apache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/php-apache/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/php-apache/memcached.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>desenv.local</find>
+      <find>desenv</find>
+      <find>mcrypt</find>
+      <find>12.2.0.1.0</find>
+      <find>instantclient_12_2</find>
+      <find>libaio1</find>
+      <find>apt-utils</find>
+      <find>libmem</find>
+      <find>zlib</find>
+      <find>libzdev</find>
+      <find>libmemcachedutil2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sample.local</replace>
+      <replace>sample</replace>
+      <replace>12.1.0.2.0</replace>
+      <replace>instantclient_12_1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/files/php-apache" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/uploadprogress.ini" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/apache/projetos/sample/index.php" />
+        <option value="$PROJECT_DIR$/files/php-apache/sample/info.php" />
+        <option value="$PROJECT_DIR$/files/php-apache/sample/postgrestest.php" />
+        <option value="$PROJECT_DIR$/apache/projetos/sample/ocitest.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README_eng.md" />
+        <option value="$PROJECT_DIR$/apache/conf/sample.local.conf" />
+        <option value="$PROJECT_DIR$/files/php-apache/memcached.ini" />
+        <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/apache/projetos/sample/mysqltest.php" />
+        <option value="$PROJECT_DIR$/files/php-apache/Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="projetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="projetos" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="php-apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-debian-php56-oci8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-debian-php56-oci8" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606488855633" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apache/projetos/sample" />
+      <recent name="$PROJECT_DIR$/files/php-apache" />
+      <recent name="$PROJECT_DIR$/files/php-apache/oracle" />
+      <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apache/projetos" />
+      <recent name="$PROJECT_DIR$/apache/projetos/sample" />
+      <recent name="$PROJECT_DIR$/files/php-apache" />
+      <recent name="$PROJECT_DIR$/oracle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1464f5b1-1968-44ab-a22f-08a8380bef2b" name="Default Changelist" comment="" />
+      <created>1606260890788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606260890788</updated>
+      <workItem from="1606260891917" duration="112000" />
+      <workItem from="1606261041129" duration="8537000" />
+      <workItem from="1606308924907" duration="24000" />
+      <workItem from="1606316089572" duration="1043000" />
+      <workItem from="1606331627396" duration="4551000" />
+      <workItem from="1606350476253" duration="7000" />
+      <workItem from="1606351099955" duration="591000" />
+      <workItem from="1606389420659" duration="20000" />
+      <workItem from="1606391382394" duration="541000" />
+      <workItem from="1606393767865" duration="7128000" />
+      <workItem from="1606401866872" duration="5123000" />
+      <workItem from="1606410849783" duration="3590000" />
+      <workItem from="1606423323500" duration="6979000" />
+      <workItem from="1606475794652" duration="9116000" />
+      <workItem from="1606485376951" duration="3543000" />
+    </task>
+    <task id="LOCAL-00001" summary="# Atualização do código&#10;- Acréscimo do &quot;sample.local&quot;, para testes com o domínio.&#10;- Configuração do timezone&#10;- Rotinas de testes para os bancos: mysql, oracle e postgres.">
+      <created>1606401527716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606401527717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# Acréscimo de uma batch em Shell Script para automatizar o build.&#10;# Está utilizando o &quot;docker-compose&quot;">
+      <created>1606401756262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606401756262</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# Scripts para instalação do DOCKER e DOCKER-COMPOSE.">
+      <created>1606401837166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606401837166</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# Ajustes no readme.">
+      <created>1606402191865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606402191865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# Configuração padrão do apache.">
+      <created>1606402222766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606402222766</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# SMTP Server de desenvolvimento (MailHog)">
+      <created>1606403041552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606403041552</updated>
+    </task>
+    <task id="LOCAL-00007" summary="# Acréscimo do Mail Server na documentação.">
+      <created>1606403172566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606403172566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# Ajustes para rodar a aplicação em Memcache, timezone e upload de arquivos.">
+      <created>1606403350254</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606403350254</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# Retirada do Mail para subir somente quando necessário.">
+      <created>1606405725433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405725433</updated>
+    </task>
+    <task id="LOCAL-00010" summary="# Exemplo de configuração para o uso do SSL.">
+      <created>1606488127573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488127573</updated>
+    </task>
+    <task id="LOCAL-00011" summary="# Página inicial do exemplo.">
+      <created>1606488181842</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488181842</updated>
+    </task>
+    <task id="LOCAL-00012" summary="# Exemplo de uso com o MYSQL e a configuração de CHARSET.">
+      <created>1606488211119</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488211119</updated>
+    </task>
+    <task id="LOCAL-00013" summary="# Chave APT para o uso com o DEBIAN / SURY.">
+      <created>1606488241591</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488241591</updated>
+    </task>
+    <task id="LOCAL-00014" summary="# Uso do repositório PHP:5.6-APACHE&#10;&#10;Complemento do código para uso do PHP 5.6 em projetos legados.">
+      <created>1606488307854</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488307854</updated>
+    </task>
+    <task id="LOCAL-00015" summary="# Configuração do memcached.">
+      <created>1606488336620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488336620</updated>
+    </task>
+    <task id="LOCAL-00016" summary="# Uso do PHPUNIT no projeto.">
+      <created>1606488355267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488355267</updated>
+    </task>
+    <task id="LOCAL-00017" summary="# Configuração do CHARSET para o MYSQL e volumes para o PHP.">
+      <created>1606488424999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488424999</updated>
+    </task>
+    <task id="LOCAL-00018" summary="# Ajustes no shell script RUN.SH.">
+      <created>1606488450854</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488450854</updated>
+    </task>
+    <task id="LOCAL-00019" summary="# Instant Client da Oracle">
+      <created>1606488477540</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488477540</updated>
+    </task>
+    <task id="LOCAL-00020" summary="# Módulos para ativer o SSL no projeto.">
+      <created>1606488601328</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488601328</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50905000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-1" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32882413" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# Atualização do código&#10;- Acréscimo do &quot;sample.local&quot;, para testes com o domínio.&#10;- Configuração do timezone&#10;- Rotinas de testes para os bancos: mysql, oracle e postgres." />
+    <MESSAGE value="# Acréscimo de uma batch em Shell Script para automatizar o build.&#10;# Está utilizando o &quot;docker-compose&quot;" />
+    <MESSAGE value="# Scripts para instalação do DOCKER e DOCKER-COMPOSE." />
+    <MESSAGE value="# Ajustes no readme." />
+    <MESSAGE value="# Configuração padrão do apache." />
+    <MESSAGE value="# SMTP Server de desenvolvimento (MailHog)" />
+    <MESSAGE value="# Acréscimo do Mail Server na documentação." />
+    <MESSAGE value="# Ajustes para rodar a aplicação em Memcache, timezone e upload de arquivos." />
+    <MESSAGE value="# Retirada do Mail para subir somente quando necessário." />
+    <MESSAGE value="# Exemplo de configuração para o uso do SSL." />
+    <MESSAGE value="# Página inicial do exemplo." />
+    <MESSAGE value="# Exemplo de uso com o MYSQL e a configuração de CHARSET." />
+    <MESSAGE value="# Chave APT para o uso com o DEBIAN / SURY." />
+    <MESSAGE value="# Uso do repositório PHP:5.6-APACHE&#10;&#10;Complemento do código para uso do PHP 5.6 em projetos legados." />
+    <MESSAGE value="# Configuração do memcached." />
+    <MESSAGE value="# Uso do PHPUNIT no projeto." />
+    <MESSAGE value="# Configuração do CHARSET para o MYSQL e volumes para o PHP." />
+    <MESSAGE value="# Ajustes no shell script RUN.SH." />
+    <MESSAGE value="# Instant Client da Oracle" />
+    <MESSAGE value="# Módulos para ativer o SSL no projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="# Módulos para ativer o SSL no projeto." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/files/php-apache/tnsnames.ora">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/sample/index.php" />
+    <entry file="file://$PROJECT_DIR$/files/php-apache/uploadprogress.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/resolv.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile (cópia)" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/apache/conf/000-default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/conf/default-ssl.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/install-docker.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/mailhog/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_eng.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="384">
+            <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="444">
+            <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/oci8.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/sample/postgrestest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/sample/ocitest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/conf/sample.local.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/sample/mysqltest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/sample/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/projetos/sample/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/Dockerfile-copia">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/memcached.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php-apache/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
