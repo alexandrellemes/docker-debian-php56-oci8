@@ -17,5 +17,10 @@ sudo docker-compose exec php-apache sh -c "a2ensite sample.local"
 echo 'Reinicia o apache2'
 sudo docker-compose exec php-apache sh -c "service apache2 reload"
 
+echo 'ATENCAO!!'
+echo 'Configure o seu HOSTS para realizar a chamada ao sample.local'
+echo 'path: /etc/hosts'
+
+# Docker limpar as imagens e etc...
 #sudo docker system prune -a
 
